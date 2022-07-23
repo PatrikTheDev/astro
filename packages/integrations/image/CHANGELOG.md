@@ -1,5 +1,24 @@
 # @astrojs/image
 
+## 0.2.0
+
+### Minor Changes
+
+- [#3570](https://github.com/withastro/astro/pull/3570) [`04070c0c1`](https://github.com/withastro/astro/commit/04070c0c12c00a3e17842ce48e36edc3f2c890a3) Thanks [@matthewp](https://github.com/matthewp)! - Bump to Vite 3!
+
+* [#4013](https://github.com/withastro/astro/pull/4013) [`ef9345767`](https://github.com/withastro/astro/commit/ef9345767b898b436acc6da32da4936b882fd926) Thanks [@tony-sull](https://github.com/tony-sull)! - - Fixes two bugs that were blocking SSR support when deployed to a hosting service
+  - The built-in `sharp` service now automatically rotates images based on EXIF data
+
+### Patch Changes
+
+- [#3961](https://github.com/withastro/astro/pull/3961) [`d73c04a9e`](https://github.com/withastro/astro/commit/d73c04a9e58c7d320cdb4f34604de76b30199778) Thanks [@tony-sull](https://github.com/tony-sull)! - Updates the <Picture /> component to pass the `alt` attribute down to the <img> element
+
+* [#4021](https://github.com/withastro/astro/pull/4021) [`9aecf7c7c`](https://github.com/withastro/astro/commit/9aecf7c7c7211f34236d8dde624ca388310d3727) Thanks [@delucis](https://github.com/delucis)! - Handle EXIF orientation flag
+
+- [#4004](https://github.com/withastro/astro/pull/4004) [`ef9c4152b`](https://github.com/withastro/astro/commit/ef9c4152b2b399e25bf4e8aa7b37adcf6d0d8f17) Thanks [@sarah11918](https://github.com/sarah11918)! - [READMEs] removed "experimental" from astro add instructions
+
+* [#3980](https://github.com/withastro/astro/pull/3980) [`eaf187f2c`](https://github.com/withastro/astro/commit/eaf187f2c40493abec28113c742ef392c812d0e2) Thanks [@tony-sull](https://github.com/tony-sull)! - Fixing TypeScript definition exports for image components
+
 ## 0.1.3
 
 ### Patch Changes

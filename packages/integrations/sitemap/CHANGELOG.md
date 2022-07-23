@@ -1,5 +1,13 @@
 # @astrojs/sitemap
 
+## 0.2.7
+
+### Patch Changes
+
+- [#3978](https://github.com/withastro/astro/pull/3978) [`b37d7078a`](https://github.com/withastro/astro/commit/b37d7078a009869bf482912397a073dca490d3da) Thanks [@Chrissdroid](https://github.com/Chrissdroid)! - Update README to reflect `@astrojs/sitemap@0.2.0` changes
+
+* [#4004](https://github.com/withastro/astro/pull/4004) [`ef9c4152b`](https://github.com/withastro/astro/commit/ef9c4152b2b399e25bf4e8aa7b37adcf6d0d8f17) Thanks [@sarah11918](https://github.com/sarah11918)! - [READMEs] removed "experimental" from astro add instructions
+
 ## 0.2.6
 
 ### Patch Changes
